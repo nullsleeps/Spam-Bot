@@ -1,7 +1,6 @@
 import pyautogui, time
 
-
-time.sleep(5)
+time.sleep(2)
 
 f = open("water.txt", "r")
 
