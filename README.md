@@ -1,4 +1,8 @@
 Installation: Ensure that you have pyautogui installed in your Python environment. You can install it using pip if you haven't already: `pip install pyautogui`
+
+THIS IS FOR EDUCATIONAL PERPOSES ONLY, IF YOU INDEND ON USING THIS FOR THE WRONG PURPOSE I WILL NOT BE RESPONSIBlE FOR YOUR ACTIONS, YOU WILL BE DOING SO AT YOUR OWN RISK.
+
+
 Focus on the Right Window: After the 2-second delay, make sure the window where you want the text to be sent is active and in focus. If it is not, the script will type into the wrong window.
 File Contents: Ensure water.txt exists and contains the words or lines you want to spam. Each line in the text file will be treated as a separate entry.
 Make sure to test it in a safe environment, such as a notepad or a dedicated chat application where you have permission to type freely.
@@ -17,4 +21,3 @@ Loop Through Each Word: The for word in f: loop goes through each line (word) in
 
 Enjoy :)
 
-THIS IS FOR EDUCATIONAL PERPOSES ONLY, IF YOU INDEND ON USING THIS FOR THE WRONG PURPOSE I WILL NOT BE RESPONSIBlE FOR YOUR ACTIONS, YOU WILL BE DOING SO AT YOUR OWN RISK.
