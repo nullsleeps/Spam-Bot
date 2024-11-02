@@ -1,9 +1,9 @@
-import pyautogui, time
+import pyautogui
+import time
 
 time.sleep(2)
 
-f = open("water.txt", "r")
-
-for word in f:
-    pyautogui.typewrite(word)
-    pyautogui.press("enter")
+with open("water.txt", "r") as f:
+    for word in f:
+        pyautogui.typewrite(word.strip())
+        pyautogui.press("enter")
